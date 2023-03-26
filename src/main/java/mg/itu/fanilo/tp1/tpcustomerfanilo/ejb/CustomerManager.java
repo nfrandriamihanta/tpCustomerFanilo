@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package mg.itu.fanilo.tp1.tp1customerfanilo.ejb;
+package mg.itu.fanilo.tp1.tpcustomerfanilo.ejb;
 
 import jakarta.ejb.Stateless;
 import jakarta.persistence.EntityManager;
@@ -32,5 +32,8 @@ public class CustomerManager {
 
     public void persist(Customer customer) {
        em.persist(customer);
-    } 
+    }
+    public Customer findById(int idCustomer) {  
+        return em.find(Customer.class, idCustomer);  
+    }
 }

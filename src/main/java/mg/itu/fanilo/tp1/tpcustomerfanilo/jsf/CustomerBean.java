@@ -9,7 +9,7 @@ import jakarta.faces.view.ViewScoped;
 import java.io.Serializable;
 import jakarta.inject.Named;
 import java.util.List;
-import mg.itu.fanilo.tp1.tp1customerfanilo.ejb.CustomerManager;
+import mg.itu.fanilo.tp1.tpcustomerfanilo.ejb.CustomerManager;
 import mg.itu.fanilo.tp1.tpcustomerfanilo.entities.Customer;
 
 /**

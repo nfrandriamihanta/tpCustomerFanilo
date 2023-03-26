@@ -9,8 +9,8 @@ import jakarta.inject.Named;
 import jakarta.faces.view.ViewScoped;
 import java.io.Serializable;
 import java.util.List;
-import mg.itu.fanilo.tp1.tp1customerfanilo.ejb.CustomerManager;
-import mg.itu.fanilo.tp1.tp1customerfanilo.ejb.DiscountManager;
+import mg.itu.fanilo.tp1.tpcustomerfanilo.ejb.CustomerManager;
+import mg.itu.fanilo.tp1.tpcustomerfanilo.ejb.DiscountManager;
 import mg.itu.fanilo.tp1.tpcustomerfanilo.entities.Customer;
 import mg.itu.fanilo.tp1.tpcustomerfanilo.entities.Discount;
 
